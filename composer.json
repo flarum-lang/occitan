@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/occitan",
+	"description": "Occitan Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Occitan language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/occitan",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"oc-locale",
-		"occitan-locale",
-		"occitan"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/occitan",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/occitan/issues",
+		"forum": "https://discuss.flarum.org/d/40207",
 		"source": "https://github.com/flarum-lang/occitan"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Occitan",
 			"category": "language",
@@ -34,12 +31,6 @@
 		"flarum-locale": {
 			"code": "oc",
 			"title": "Occitan"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
